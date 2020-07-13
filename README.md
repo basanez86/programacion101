@@ -1,5 +1,8 @@
 # Como programar 101
 
+ - [Baby steps](#Reglas-básicas)
+	 - vbnvnvbnv
+
 ## Idea general
  Antes de aprender de la **a** a la **z** cualquier lenguaje de programación, es necesario poder entender la estructura lógica general de cada lenguaje.
  
@@ -16,7 +19,7 @@ Así de fácil es programar.
 
 
 ## Reglas básicas
-**Lineas de código**
+### Lineas de código
 Una linea de código es básicamente un proceso que le dice al programa que hacer escrito en una linea de nuestro documento. 
 
 > *ejemplo en **python**:* 
@@ -57,7 +60,7 @@ En algunos lenguajes como **php** es muy necesario el uso de `delimitadores` com
 > *NOTA: la única forma de saber si el uso del semicolon al final de cada linea de código es indispensable, es familiarizarse con el lenguaje.*
 
 ---
-**Imprimir en la consola**
+### Imprimir en la consola
 Es muy importante saber lo que esta sucediendo en nuestro código y una herramienta fundamental es `imprimir en la consola`. Entre las funciones mas importantes para imprimir están `print` y `echo`, los usos y variantes dependen del lenguaje.
 
 > ***python:***
