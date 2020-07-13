@@ -1,7 +1,10 @@
 # Como programar 101
 
- - [Baby steps](#Reglas-básicas)
-	 - vbnvnvbnv
+1. [Idea general](#Idea-general)
+2. [Reglas básicas](#Reglas-básicas)
+	- [Lineas de código](#Lineas-de-código)
+	 - [Imprimir en la consola](#Imprimir-en-la-consola)
+	 - [Anotaciones](#Anotaciones)
 
 ## Idea general
  Antes de aprender de la **a** a la **z** cualquier lenguaje de programación, es necesario poder entender la estructura lógica general de cada lenguaje.
@@ -16,7 +19,7 @@ Nuestro mayor propósito al escribir un código, al menos eso creo, es automatiz
 Así de fácil es programar.
 
 > *NOTA: Como referencia voy a estar usando ejemplos con **python**, **javascript**, **php** y **powershell***.
-
+###### [Ir arriba](#Como-programar-101)
 
 ## Reglas básicas
 ### Lineas de código
@@ -58,7 +61,7 @@ En algunos lenguajes como **php** es muy necesario el uso de `delimitadores` com
 > *Es necesario terminar nuestras lineas de código con el `semicolon`, al igual que delimitar nuestros procesos en la misma linea.*
 
 > *NOTA: la única forma de saber si el uso del semicolon al final de cada linea de código es indispensable, es familiarizarse con el lenguaje.*
-
+###### [Ir arriba](#Como-programar-101)
 ---
 ### Imprimir en la consola
 Es muy importante saber lo que esta sucediendo en nuestro código y una herramienta fundamental es `imprimir en la consola`. Entre las funciones mas importantes para imprimir están `print` y `echo`, los usos y variantes dependen del lenguaje.
@@ -82,115 +85,34 @@ Es muy importante saber lo que esta sucediendo en nuestro código y una herramie
 > ```powershell
 > Write-Host 'hola'
 > ```
+###### [Ir arriba](#Como-programar-101)
+---
+### Anotaciones
+Las Anotaciones o comentarios son parte fundamental a la hora de escribir un código, en especial si este tiene varias lineas escritas. Un comentario empieza con ciertos caracteres que les permiten ser ignorados al momento de ejecutar el código.
+> ***python:***
+> ```python
+> # Este es un comentario
+> ```
 
-#### Anotaciones
-> Los comentarios son parte fundamental a la hora de escribir un código, en especial si este tiene varias lineas escritas. Un comentario empieza con ciertos caracteres que les permiten ser ignorados al momento de ejecutar el código.
-```python
-# | python |
-# Este es un comentario
-print('hola')
-```
-```php
-// | php |
-// Este es un comentario
-echo 'hola';
-```
-```javascript
-// | javascript |
-// Este es un comentario
-/*
-Este es un comentario multilineal
-*/
-console.log('hola');
-```
-```powershell
-# | powershell |
-# Este es un comentario
-<#
-Este es un comentario multilineal
-#>
-Write-Host 'hola'
-```
+> ***php:***
+> ```php
+> // Este es un comentario
+> ```
 
-## Variables
-> Dependiendo del lenguaje las variables pueden o no empezar con el símbolo **$**
-```python
-# | python |
-miVariable = <valorAsigando>
-miVariable = 'abc'
-```
-```php
-// | php |
-$miVariable = <valorAsigando>
-$miVariable = 'abc';
-```
-```javascript
-// | javascript |
-var miVariable = <valorAsigando>;
-var miVariable = 'abc';
-```
-```powershell
-# | powershell |
-$miVariable = <valorAsigando>
-$miVariable = 'abc'
-```
+> ***javascript:***
+> ```javascript
+> // Este es un comentario
+> /*
+>     Este es un comentario
+>     multilineal
+> */
+> ```
 
-#### Tipos de variable
- - Integer (Números enteros)
-```python
-# | python |
-miVariable = 1
-miVariable = 158
-miVariable = abc # [ERROR] Una letra no puede ser un numero  
-```
- - String (Cadenas de texto)
-```python
-# | python |
-# Cualquier caracter dentro de comillas
-miVariable = 'abc'
-miVariable = 'Cualquier valor, 123456'
-miVariable = '123456' # Un numero puede ser una letra
-miVariable_2 = miVariable # Traduccion: miVariable_2 = '123456'
-```
- - List o Array 
->Cualquier conjunto de letras y o numeros como 'Values' asignados a un 'Key', separados generalmente por una coma.
-> array = [ key1:valor1, key2:valor2, key3:valor3, key4:valor4 ]
-
-*Ejemplo con valores NO asignados*
-```python
-# | python |
-miVariable = [ 'valor1', 'valor2', 'valor3', 'valor4' ]
-```
-```php
-# | php |
-$miVariable = array('valor1', 'valor2', 'valor3', 'valor4');
-```
-```javascript
-// | javascript |
-var miVariable = [ 'valor1', 'valor2', 'valor3', 'valor4' ];
-```
-```powershell
-# | powershell |
-$miVariable = @('valor1', 'valor2', 'valor3', 'valor4')
-```
-> Traduccion: [ 0:'valor1', 1:'valor2', 2:'valor3'... ]
-`;`
-
-*Ejemplo con valores asignados*
-```python
-# | python |
-miVariable = [ 'valor1', 'valor2', 'valor3', 'valor4' ]
-```
-```php
-# | php |
-$miVariable = array('valor1', 'valor2', 'valor3', 'valor4');
-```
-```javascript
-// | javascript |
-var miVariable = [ 'valor1', 'valor2', 'valor3', 'valor4' ];
-```
-```powershell
-# | powershell |
-$miVariable = @('valor1', 'valor2', 'valor3', 'valor4')
-```
-> Traduccion: [ 0:'valor1', 1:'valor2', 2:'valor3'... ]
+> ***powershell:***
+> ```powershell
+> # Este es un comentario
+> <#
+>     Este es un comentario
+>     multilineal
+> #>
+> ```
