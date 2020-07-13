@@ -1,4 +1,5 @@
 # Como programar 101
+> Antes de aprender cualquier lenguaje de programacion considero que es mejor entender las funciones y estructuras generales.
 
 ## Reglas generales
 
